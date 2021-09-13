@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- SEO -->
+	<meta name="description" content="telecom ayuda">
+	<meta name="keywords" content="ayuda, contacto, soporte">
+
+	<link rel="shortcut icon" href="favicon.png">
+
+	<!-- vinculo con google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- vinculo con fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- vinculo con css boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <!-- vinculo con estilos propios -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<title>Ayuda</title>
+</head>
+<body>
+	<header class="sticky-top">
+		<nav class="navbar navbar-expand-lg navbar-light fondo-blanco">	
+			<div class="container-fluid">
+
+				<!-- logo para mobile -->
+			    <a class="logo-mobile" href="index.html"><img class="logo" src="img/triada-cablevision-header.svg" alt="logo"></a>
+		
+			    <!-- boton hamburguesa -->
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    	<span class="navbar-toggler-icon"></span>
+			    </button>
+
+			    <!-- menu superior -->
+			    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+
+			    	<!-- menu ubicacion -->
+				    <ul class="navbar-nav">
+
+				        <li class="nav-item dropdown">
+					        <a class="nav-link dropdown-toggle" href="#" id="DesplegableMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					            Estas en: <span>Ayuda</span>
+					        </a>
+					        <ul class="dropdown-menu" aria-labelledby="DesplegableMenu">
+					            <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+					            <li><a class="dropdown-item" href="movil.html">Movil</a></li>
+					            <li><a class="dropdown-item" href="hogares.html">Hogares</a></li>
+					            <li><a class="dropdown-item" href="ayuda.html">Ayuda</a></li>
+					        </ul>
+				        </li>
+				        <li><hr class="dropdown-divider"></li>
+				    </ul>
+
+				    <!-- logo marca -->
+			    	<a class="logo-desktop" href="index.html"><img class="logo" src="img/triada-cablevision-header.svg" alt="logo"></a>
+
+			       	<!-- menu logueo -->
+				    <ul class="navbar-nav">
+				        <li class="nav-item">
+				          	<a class="nav-link" href="ayuda.html">Ayuda</a>
+				        </li>
+				        <li class="nav-item">
+				          	<a class="nav-link" href="#">Ingresar</a>
+				        </li>
+				    </ul>  	
+			    </div>
+
+			</div>
+		</nav>
+
+		<nav class="navbar-expand-lg navbar-light fondo-gris sombra">
+      <div class="container d-flex justify-content-center">
+
+       	<!-- menu inferior seccion -->
+        <h2 class="nav-item dark-text volanta negrita m-3">Bienvenido al soporte de Telecom</h2>
+      </div>
+    </nav>
+	</header>
+
+	<main>
+		<!-- seccion preguntas frecuentes -->
+		<section class="container col-12 col-md-8">
+			<div class="accordion accordion-flush" id="accordionFlushExample">
+				<h1 class="m-4 fs-1 text-uppercase text-center">¿En qué te podemos ayudar hoy?</h1>
+				<div class="accordion-item">
+				    <h2 class="accordion-header" id="flush-heading1">
+				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+				        Conocé cómo pagar y toda la info de tu factura
+				      </button>
+				    </h2>
+				    <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample">
+				    	<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+				    </div>
+				</div>
+				<div class="accordion-item">
+				    <h2 class="accordion-header" id="flush-heading2">
+				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+				        Aprendé cómo gestionar tus servicios
+				      </button>
+				    </h2>
+				    <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample">
+				    	<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+				    </div>
+				</div>
+				<div class="accordion-item">
+				    <h2 class="accordion-header" id="flush-heading3">
+				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+				        Descubrí todo sobre tu celular
+				      </button>
+				    </h2>
+				    <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3" data-bs-parent="#accordionFlushExample">
+				      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+				    <h2 class="accordion-header" id="flush-heading4">
+				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+				        Encontrá toda la info sobre portabilidad
+				      </button>
+				    </h2>
+				    <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample">
+				      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+				    <h2 class="accordion-header" id="flush-heading5">
+				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+				        Conocé todo sobre tu servicio de Internet WiFi
+				      </button>
+				    </h2>
+				    <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample">
+				      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- seccion contacto (telefonos) -->
+		<section class="telefonos-container">
+
+			<div class="telefono">
+				<img src="https://us.123rf.com/450wm/furtaev/furtaev1712/furtaev171200198/92419471-vector-negro-de-se%C3%B1al-del-receptor-del-tel%C3%A9fono-.jpg" alt="llamar hogares">
+				<h2 class="subtitulo">Querés llamarnos?</h2>
+			</div>
+			
+			<div class="contacto">
+				<div>
+					<h3 class="volanta">Servicio movil</h3>
+					<h4 class="volanta">0800-111-1111</h4>
+				</div>
+				<div>
+					<h3 class="volanta">Hogares</h3>
+					<h4 class="volanta">0800-111-2222</h4>
+				</div>
+			</div>
+		</section>
+
+		<!-- seccion contacto (mail) -->
+		<section class="mensaje-container" id="formulario">
+			<h2 class="subtitulo m-4 text-center">o escribinos y te contactamos</h2>
+			<form action="">
+				<div class="mb-2 d-flex">
+					<label for="nombre">Nombre y apellido</label>
+					<input type="text" name="nombre" id="nombre" placeholder="Juan Perez*" required>
+				</div>
+				<div class="mb-2 d-flex">
+					<label for="telefono">Telefono de contacto</label>
+					<input type="text" name="telefono" id="telefono" placeholder="(011)4211-1111*" required>
+				</div>
+				<div class="mb-2 d-flex">
+					<label for="email">Email</label>
+					<input type="Email" name="email" id="email" placeholder="email@gmail.com*" required>
+				</div>
+				<div class="mb-2 d-flex">
+					<label for="mensaje" class="mb-2">Mensaje</label>
+					<textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+				</div>
+				<div class="d-grid gap-2 d-md-flex justify-content-end">
+					<button type="submit" class="btn btn-primary">Enviar</button>
+				</div>	
+			</form>
+		</section>
+	</main>
+
+	<footer class="footer-container">
+		<!--seccion legales-->
+		<div class="container-fluid d-flex justify-content-center">
+			<!-- Boton modal -->
+			<button type="button" class="dark-text border-0 bg-white" data-bs-toggle="modal" data-bs-target="#ModalTyC">
+			  ver legales
+			</button>
+
+			<!-- Modal -->
+			<div class="modal fade" id="ModalTyC" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="ModalLabel">Legales</h5>
+			        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			      </div>
+			      <div class="modal-body">
+			        <p>Defensa de las y los Consumidores. Para reclamos ingrese aquí</p>
+			        <p>Reglamento de cliente servicios TICLey 24240</p>
+			    	<p>Prestación Básica Universal | Enacom contacto@enacom.gob.ar</p>
+			        <p>Contrato de adhesiónPolítica de Privacidad de Telecom Argentina S.A.</p>
+			        <p>Suspensión de los Plazos de Garantías</p>
+			        <p>Arrepentimiento</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>	
+		</div>
+
+		<!-- seccion navegacion-->
+		<div class="footer-menu fondo-gris">
+			<img class="logo" src="img/triada-cablevision-header.svg" alt="logo">
+			<ul class="lista-pie">
+				<li class="nav-item"><a class="nav-link dark-text" href="ayuda.html">Ayuda</a></li>
+				<li class="nav-item"><a class="nav-link dark-text" href="#">Sucursales</a></li>
+				<li class="nav-item"><a class="nav-link dark-text" href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario">Defensa del consumidor</a></li>
+			</ul>
+			<div class="miniaturas-container">
+				<a class="dark-text" href="https://www.facebook.com/" target="_blank">
+				<i class="fab fa-facebook-square redes"></i>
+				</a>
+				<a class="dark-text" href="https://twitter.com/" target="_blank">
+				<i class="fab fa-twitter-square redes"></i>
+				</a>
+				<a class="dark-text" href="https://www.instagram.com/" target="_blank">
+				<i class="fab fa-instagram redes"></i>
+				</a>
+			</div>
+		</div>
+		<!--seccion copyright-->
+		<div class="copyright">
+			<p>Diseñado por Mariela Insaurralde | Copyright © 2021</p>		
+		</div>	
+	</footer>
+
+  	<!-- vinculo con js boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

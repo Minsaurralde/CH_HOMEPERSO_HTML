@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- SEO -->
+	<meta name="description" content="personal equipos y accesorios">
+	<meta name="keywords" content="personal, equipos, samsumg, motorola, lg, iphone, accesorios">
+
+	<link rel="shortcut icon" href="favicon.png">
+
+	<!-- vinculo con google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- vinculo con fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- vinculo con css boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <!-- vinculo con estilos propios -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<title>Movil | Equipos</title>
+</head>
+<body>
+	<header class="sticky-top">
+		<nav class="navbar navbar-expand-lg navbar-light fondo-blanco">	
+			<div class="container-fluid">
+
+				<!-- logo para mobile -->
+			    <a class="logo-mobile" href="index.html"><img class="logo" src="img/triada-cablevision-header.svg" alt="logo"></a>
+		
+			    <!-- boton hamburguesa -->
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    	<span class="navbar-toggler-icon"></span>
+			    </button>
+
+			    <!-- menu superior -->
+			    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+
+			    	<!-- menu ubicacion -->
+				    <ul class="navbar-nav">
+
+				        <li class="nav-item dropdown">
+					        <a class="nav-link dropdown-toggle" href="#" id="DesplegableMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					            Estas en: <span>Movil</span>
+					        </a>
+					        <ul class="dropdown-menu" aria-labelledby="DesplegableMenu">
+					            <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+					            <li><a class="dropdown-item" href="movil.html">Movil</a></li>
+					            <li><a class="dropdown-item" href="hogares.html">Hogares</a></li>
+					            <li><a class="dropdown-item" href="ayuda.html">Ayuda</a></li>
+					        </ul>
+				        </li>
+				        <li><hr class="dropdown-divider"></li>
+				    </ul>
+
+				    <!-- logo marca -->
+			    	<a class="logo-desktop" href="index.html"><img class="logo" src="img/triada-cablevision-header.svg" alt="logo"></a>
+
+			       	<!-- menu logueo -->
+				    <ul class="navbar-nav">
+				        <li class="nav-item">
+				          	<a class="nav-link" href="ayuda.html">Ayuda</a>
+				        </li>
+				        <li class="nav-item">
+				          	<a class="nav-link" href="#">Ingresar</a>
+				        </li>
+				    </ul>  	
+			    </div>
+
+			</div>
+		</nav>
+
+		<nav class="navbar-expand-lg navbar-light fondo-gris sombra">
+            <div class="container">
+
+               	<!-- menu inferior seccion -->
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link dark-text" href="planes.html">Portabilidad y Planes</a>
+                    </li>
+                    <li class="nav-item page-active">
+                      <a class="nav-link dark-text" href="equipos.html">Celulares</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+	</header>
+
+	<main>
+		<!-- seccion carrusel -->
+	  <section>
+      <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="img/h1_tienda_iphone12promax_desk.webp" class="d-block carrusel" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                  <h2>El último Iphone esta en Personal</h2>
+                  <h5>Iphone 12 Pro Max</h5>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="img/h1_tienda_samsung_A32_desk.webp" class="d-block carrusel" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5 class="dark-text">Capturá tus momentos</h5>
+                  <h2 class="dark-text">Galaxy A32</h2>
+                  <p class="dark-text">Llevalo en 6 cuotas sin interés</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="img/h1_tienda_motog60s_desk.webp" class="d-block carrusel" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>Lanzamiento</h5>
+                  <h2>Moto G60s</h2>
+                  <p>Llevalo en 6 cuotas sin interés</p>
+              </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container-fluid p-1 text-center dark-text fondo-gris">
+          <p class="m-0">Venta telefónica 0800-444-0800</p>                    
+      </div>
+      <div class="grid2x1 tyc text-center fondo-negro light-text">
+          <p class="m-0">Envio gratis a todo el pais</p>
+          <p class="m-0">Hasta 12 cuotas con tarjetas seleccionadas</p>
+      </div>
+	  </section>
+
+		<!-- seccion cards -->
+		<section class="container px-4 px-lg-5 mt-3">
+			<h2 class="text-center py-1">Celulares y Accesorios en Oferta</h2>
+			<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+				
+				<div class="col mb-5">
+					<div class="card h-100 fondo-blanco">
+						<div class="gradiente"></div>
+						<img class="card-img-top" src="img/equipos/iphone12.png" alt="...">
+						<div class="caracteristicas">
+							</span>$305.999</span>
+							<p class="dark-text tyc">Hasta 6 cuotas sin interés<p>
+							<h5 class="card-title">Iphone 12 Pro Max</h5>
+						</div>						
+						<a class="boton" href="#">Comprar</a>
+					</div>
+				</div>
+
+				<div class="col mb-5">
+					<div class="card h-100 fondo-blanco">
+						<div class="gradiente"></div>
+						<img class="card-img-top" src="img/equipos/motoE7.png" alt="...">
+						<div class="caracteristicas">
+							</span>$20.499</span>
+							<p class="dark-text tyc">Hasta 6 cuotas sin interés<p>
+							<h5 class="card-title">Motorola E7i Power</h5>
+						</div>						
+						<a class="boton" href="#">Comprar</a>
+					</div>
+				</div>
+
+				<div class="col mb-5">
+					<div class="card h-100 fondo-blanco">
+						<div class="gradiente"></div>
+						<img class="card-img-top" src="img/equipos/samsungA22.png" alt="...">
+						<div class="caracteristicas">
+							</span>$37.999</span>
+							<p class="dark-text tyc">Hasta 6 cuotas sin interés<p>
+							<h5 class="card-title">Samsung Galaxy A22</h5>
+						</div>						
+						<a class="boton" href="#">Comprar</a>
+					</div>
+				</div>
+
+				<div class="col mb-5">
+					<div class="card h-100 fondo-blanco">
+						<div class="gradiente"></div>
+						<img class="card-img-top" src="img/equipos/lgK61.png" alt="...">
+						<div class="caracteristicas">
+							</span>$31.999</span>
+							<p class="dark-text tyc">Hasta 6 cuotas sin interés<p>
+							<h5 class="card-title">LG K61</h5>
+						</div>						
+						<a class="boton" href="#">Comprar</a>
+					</div>
+				</div>
+
+				<div class="col mb-5">
+					<div class="card h-100 fondo-blanco">
+						<div class="gradiente"></div>
+						<img class="card-img-top" src="img/equipos/alcatel1V.png" alt="...">
+						<div class="caracteristicas">
+							</span>$15.999</span>
+							<p class="dark-text tyc">Hasta 6 cuotas sin interés<p>
+							<h5 class="card-title">Alcatel 1V plus</h5>
+						</div>						
+						<a class="boton" href="#">Comprar</a>
+					</div>
+				</div>
+
+				<div class="col mb-5">
+					<div class="card h-100 fondo-blanco">
+						<div class="gradiente"></div>
+						<img class="card-img-top" src="img/equipos/auricSONY.png" alt="...">
+						<div class="caracteristicas">
+							</span>$7.299</span>
+							<p class="dark-text tyc">Hasta 6 cuotas sin interés<p>
+							<h5 class="card-title">Auriculares Sony Bluetooth</h5>
+						</div>						
+						<a class="boton" href="#">Comprar</a>
+					</div>
+				</div>
+
+				<div class="col mb-5">
+					<div class="card h-100 fondo-blanco">
+						<div class="gradiente"></div>
+						<img class="card-img-top" src="img/equipos/sonySD32.jfif" alt="...">
+						<div class="caracteristicas">
+							</span>$1599</span>
+							<p class="dark-text tyc">Hasta 6 cuotas sin interés<p>
+							<h5 class="card-title">Pack 3 memorias + adaptador</h5>
+						</div>						
+						<a class="boton" href="#">Comprar</a>
+					</div>
+				</div>
+
+			</div>
+		</section>		
+	</main>
+
+	<footer class="footer-container">
+		<!--seccion legales-->
+		<div class="container-fluid d-flex justify-content-center">
+			<!-- Boton modal -->
+			<button type="button" class="dark-text border-0 bg-white" data-bs-toggle="modal" data-bs-target="#ModalTyC">
+			  ver legales
+			</button>
+
+			<!-- Modal -->
+			<div class="modal fade" id="ModalTyC" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="ModalLabel">Legales</h5>
+			        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			      </div>
+			      <div class="modal-body">
+			        <p>Defensa de las y los Consumidores. Para reclamos ingrese aquí</p>
+			        <p>Reglamento de cliente servicios TICLey 24240</p>
+			    	<p>Prestación Básica Universal | Enacom contacto@enacom.gob.ar</p>
+			        <p>Contrato de adhesiónPolítica de Privacidad de Telecom Argentina S.A.</p>
+			        <p>Suspensión de los Plazos de Garantías</p>
+			        <p>Arrepentimiento</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>	
+		</div>
+
+		<!-- seccion navegacion-->
+		<div class="footer-menu fondo-gris">
+			<img class="logo" src="img/triada-cablevision-header.svg" alt="logo">
+			<ul class="lista-pie">
+				<li class="nav-item"><a class="nav-link dark-text" href="ayuda.html">Ayuda</a></li>
+				<li class="nav-item"><a class="nav-link dark-text" href="#">Sucursales</a></li>
+				<li class="nav-item"><a class="nav-link dark-text" href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario">Defensa del consumidor</a></li>
+			</ul>
+			<div class="miniaturas-container">
+				<a class="dark-text" href="https://www.facebook.com/" target="_blank">
+				<i class="fab fa-facebook-square redes"></i>
+				</a>
+				<a class="dark-text" href="https://twitter.com/" target="_blank">
+				<i class="fab fa-twitter-square redes"></i>
+				</a>
+				<a class="dark-text" href="https://www.instagram.com/" target="_blank">
+				<i class="fab fa-instagram redes"></i>
+				</a>
+			</div>
+		</div>
+		<!--seccion copyright-->
+		<div class="copyright">
+			<p>Diseñado por Mariela Insaurralde | Copyright © 2021</p>		
+		</div>	
+	</footer>
+
+  	<!-- vinculo con js boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

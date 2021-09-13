@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- SEO -->
+	<meta name="description" content="telecom multioferta">
+	<meta name="keywords" content="personal, fibertel, cablevision">
+
+	<link rel="shortcut icon" href="favicon.png">
+
+	<!-- vinculo con google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- vinculo con fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- vinculo con css boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <!-- vinculo con estilos propios -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<title>Inicio</title>
+</head>
+<body>
+	<header class="sticky-top">
+		<nav class="navbar navbar-expand-lg navbar-light fondo-blanco">	
+			<div class="container-fluid">
+
+				<!-- logo para mobile -->
+			    <a class="logo-mobile" href="index.html"><img class="logo" src="img/triada-cablevision-header.svg" alt="logo"></a>
+		
+			    <!-- boton hamburguesa -->
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    	<span class="navbar-toggler-icon"></span>
+			    </button>
+
+			    <!-- menu superior -->
+			    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+
+			    	<!-- menu ubicacion -->
+				    <ul class="navbar-nav">
+
+				        <li class="nav-item dropdown">
+					        <a class="nav-link dropdown-toggle" href="#" id="DesplegableMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					            Estas en: <span>Inicio</span>
+					        </a>
+					        <ul class="dropdown-menu" aria-labelledby="DesplegableMenu">
+					            <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+					            <li><a class="dropdown-item" href="movil.html">Movil</a></li>
+					            <li><a class="dropdown-item" href="hogares.html">Hogares</a></li>
+					            <li><a class="dropdown-item" href="ayuda.html">Ayuda</a></li>
+					        </ul>
+				        </li>
+				        <li><hr class="dropdown-divider"></li>
+				    </ul>
+
+				    <!-- logo marca -->
+			    	<a class="logo-desktop" href="index.html"><img class="logo" src="img/triada-cablevision-header.svg" alt="logo"></a>
+
+			       	<!-- menu logueo -->
+				    <ul class="navbar-nav">
+				        <li class="nav-item">
+				          	<a class="nav-link" href="ayuda.html">Ayuda</a>
+				        </li>
+				        <li class="nav-item">
+				          	<a class="nav-link" href="#">Ingresar</a>
+				        </li>
+				    </ul>  	
+			    </div>
+
+			</div>
+		</nav>
+
+		<nav class="navbar-expand-lg navbar-light fondo-gris sombra">
+            <div class="container">
+
+               	<!-- menu inferior seccion -->
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link dark-text" href="#portabilidad">Portabilidad</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link dark-text" href="#celulares">Celulares</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link dark-text" href="#disney">Disney+</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+	</header>
+
+	<main>
+		<section class="oferta-container">
+			<div class="img-oferta-container" id="portabilidad">
+				<img src="img/hl_personal_portabilidad_numerica_01.jpg" alt="promo-porta">
+				<div class="superpuesto">
+					<h1 class="volanta">pasate a personal</h1>
+					<h2 class="titulo">30% off en planes desde 3GB</h2>
+					<h3 class="subtitulo">12 meses de descuento</h3>
+				</div>	
+			</div>
+
+			<div class="info-oferta-container">
+				<div>
+					<h2 class="subtitulo">Veni a la red mas rapida</h2>
+					<a class="boton volanta" href="portabilidad.html">quiero pasarme</a>
+				</div>
+				<div>
+					<ul>
+						<li>Llamadas y SMS ilimitados + WhatsApp Gratis</li>
+						<li>Clientes Fibertel y Flow ahorrá $1.000 en tu factura de internet + 30 GB en tu Personal</li>
+						<li>Disney+ ¡30 días de regalo!</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="oferta-container" id="celulares">
+			<a href="celulares.html"><img class="link-oferta" src="img/18-cuotas-sin-interes-multioferta-desktop.jpg" alt="promo-celulares"></a>
+			<a href="hogares.html"><img class="link-oferta" src="img/combo-fibertel-personal-multioferta-desktop.jpg" alt="promo-3play"></a>	
+		</section>
+		<section class="oferta-container" id="disney">
+			<a href="hogares.html"><img class="link-oferta" src="img/Disney-desktop.jpg" alt="promo-disney"></a>
+		</section>		
+	</main>
+
+	<footer class="footer-container">
+		<!--seccion legales-->
+		<div class="container-fluid d-flex justify-content-center">
+			<!-- Boton modal -->
+			<button type="button" class="dark-text border-0 bg-white" data-bs-toggle="modal" data-bs-target="#ModalTyC">
+			  ver legales
+			</button>
+
+			<!-- Modal -->
+			<div class="modal fade" id="ModalTyC" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="ModalLabel">Legales</h5>
+			        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			      </div>
+			      <div class="modal-body">
+			        <p>Defensa de las y los Consumidores. Para reclamos ingrese aquí</p>
+			        <p>Reglamento de cliente servicios TICLey 24240</p>
+			    	<p>Prestación Básica Universal | Enacom contacto@enacom.gob.ar</p>
+			        <p>Contrato de adhesiónPolítica de Privacidad de Telecom Argentina S.A.</p>
+			        <p>Suspensión de los Plazos de Garantías</p>
+			        <p>Arrepentimiento</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>	
+		</div>
+
+		<!-- seccion navegacion-->
+		<div class="footer-menu fondo-gris">
+			<img class="logo" src="img/triada-cablevision-header.svg" alt="logo">
+			<ul class="lista-pie">
+				<li class="nav-item"><a class="nav-link dark-text" href="ayuda.html">Ayuda</a></li>
+				<li class="nav-item"><a class="nav-link dark-text" href="#">Sucursales</a></li>
+				<li class="nav-item"><a class="nav-link dark-text" href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario">Defensa del consumidor</a></li>
+			</ul>
+			<div class="miniaturas-container">
+				<a class="dark-text" href="https://www.facebook.com/" target="_blank">
+				<i class="fab fa-facebook-square redes"></i>
+				</a>
+				<a class="dark-text" href="https://twitter.com/" target="_blank">
+				<i class="fab fa-twitter-square redes"></i>
+				</a>
+				<a class="dark-text" href="https://www.instagram.com/" target="_blank">
+				<i class="fab fa-instagram redes"></i>
+				</a>
+			</div>
+		</div>
+		<!--seccion copyright-->
+		<div class="copyright">
+			<p>Diseñado por Mariela Insaurralde | Copyright © 2021</p>		
+		</div>	
+	</footer>
+
+  	<!-- vinculo con js boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

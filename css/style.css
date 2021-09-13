@@ -1,0 +1,284 @@
+/*reset stilos*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+ul, ol {
+  list-style: none; }
+
+header {
+  border-top: 4px solid #1B1B1D; }
+
+.sombra {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15); }
+
+.navbar {
+  padding: 0; }
+
+.nav-link {
+  padding: 14px 0; }
+
+.nav-item {
+  margin: 0 16px; }
+
+.logo-mobile {
+  display: none; }
+
+@media (max-width: 992px) {
+  .logo-mobile {
+    display: block; }
+  .logo-desktop {
+    display: none; } }
+
+.footer-container {
+  font-size: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column; }
+
+.footer-menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.lista-pie {
+  font-size: 16px;
+  margin: 0;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly; }
+
+.miniaturas-container {
+  padding: 1em;
+  display: flex; }
+
+.redes {
+  font-size: 20px;
+  margin: 10px; }
+
+.copyright {
+  border-top: 1px solid #dee2e6 !important;
+  border-top-width: 1px !important;
+  border-top-style: solid !important;
+  border-top-color: #dee2e6 !important; }
+
+@media (max-width: 768px) {
+  .footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around; }
+  .lista-pie {
+    width: 40%;
+    flex-direction: column;
+    justify-content: space-evenly; }
+  .miniaturas-container {
+    padding: 0; } }
+
+.img-oferta-container {
+  width: 100%;
+  color: #eeeeee; }
+  .img-oferta-container img {
+    width: 100%;
+    position: relative; }
+
+.superpuesto {
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  left: 5%; }
+
+.info-oferta-container {
+  width: 80%;
+  padding: 1em;
+  background-color: white;
+  border: 1px solid #767676;
+  border-radius: 5px;
+  position: relative;
+  bottom: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .info-oferta-container .subtitulo {
+    text-align: center; }
+
+.condiciones {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #767676; }
+
+.condiciones p {
+  margin: 0 auto; }
+
+.boton {
+  width: 50%;
+  margin: 5px auto;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #00b0ea;
+  border: 1px solid #00b0ea;
+  border-radius: 5px;
+  display: block;
+  padding: 2px 4px; }
+
+#celulares {
+  display: flex;
+  justify-content: center; }
+
+.oferta-container .link-oferta {
+  width: 100%;
+  margin: 1em 0; }
+
+#disney {
+  display: flex;
+  justify-content: center; }
+
+@media (max-width: 768px) {
+  .superpuesto .volanta {
+    font-size: 8px;
+    text-transform: uppercase; }
+  .superpuesto .titulo {
+    display: none; }
+  .superpuesto .subtitulo {
+    display: none; }
+  .info-oferta-container {
+    width: 100%;
+    border-radius: 0;
+    position: static;
+    font-size: 10px; }
+  .boton {
+    width: 80%; } }
+
+.telefonos-container {
+  width: 80%;
+  margin: 1em auto;
+  text-align: center; }
+
+.telefono {
+  display: flex;
+  justify-content: center; }
+  .telefono img {
+    width: 30px; }
+
+.contacto {
+  background-color: #eeeeee;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #767676;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around; }
+  .contacto div {
+    width: 40%;
+    display: inline-block; }
+
+.mensaje-container {
+  width: 50%;
+  margin: 1em auto; }
+
+@media (max-width: 768px) {
+  .telefonos-container {
+    width: 100%; }
+  .contacto {
+    width: 100%; }
+    .contacto div {
+      width: 50%; }
+  .mensaje-container {
+    width: 90%; } }
+
+#formulario form {
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  #formulario form div {
+    justify-content: space-between; }
+    #formulario form div textarea {
+      width: 70%; }
+
+.gradiente {
+  height: 9px;
+  background-image: linear-gradient(90deg, #00b0ea 0%, #225380 43%, #63080b 100%); }
+
+.card-title {
+  height: 25%; }
+
+@media (max-width: 768px) {
+  #flow iframe {
+    width: 90%;
+    height: 200px; } }
+
+.scale {
+  transition: all 1s; }
+
+.scale:hover {
+  transform: scale(1.05, 1.05); }
+
+/******** pagina activa **********/
+.page-active {
+  border-bottom: 3px solid #0a58ca; }
+  .page-active a {
+    color: #0a58ca !important; }
+
+.info-oferta-container#formulario input {
+  width: 70%; }
+
+/******** Carrusel **********/
+.carrusel {
+  height: 200px;
+  margin-right: 0; }
+
+/************grid areas***************/
+.grid2x1 {
+  padding: 2em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  align-items: center; }
+
+.fondo-negro {
+  background-color: #1B1B1D; }
+
+.fondo-blanco {
+  background-color: white; }
+
+.fondo-gris {
+  background-color: #eeeeee; }
+
+.volanta {
+  /*background-color: red;*/
+  font-size: 15px;
+  text-transform: uppercase; }
+
+.titulo {
+  /*background-color: blue;*/
+  font-size: 48px;
+  text-transform: uppercase; }
+
+.subtitulo {
+  /*background-color: yellow;*/
+  font-size: 32px; }
+
+.tyc {
+  font-size: 10px; }
+
+.negrita {
+  font-weight: bold; }
+
+/******** MAPAS - EACH ********/
+/*1- Declaro el mapa de variables*/
+/*2- creo la funcion que itera en las variables*/
+/***************clases para color de texto**************/
+.dark-text {
+  color: #555555; }
+
+.light-text {
+  color: whitesmoke; }

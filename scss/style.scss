@@ -1,0 +1,53 @@
+@import '_variables.scss';
+@import '_reset.scss';
+@import '_navs.scss';
+@import '_secciones.scss';
+
+// fondos //
+.fondo{
+  &-negro {background-color: $color-negro;}
+	&-blanco {background-color: white;}
+	&-gris {background-color: $color-gris;}
+}
+
+//texto//
+
+.volanta {
+  /*background-color: red;*/
+  font-size: 15px;
+  text-transform: uppercase; }
+
+.titulo {
+  /*background-color: blue;*/
+  font-size: 48px;
+  text-transform: uppercase; }
+
+.subtitulo {
+  /*background-color: yellow;*/
+  font-size: 32px; }
+
+.tyc {
+  font-size: 10px; }
+
+.negrita {
+  font-weight: bold; }
+
+/******** MAPAS - EACH ********/
+
+/*1- Declaro el mapa de variables*/
+$color: ( 
+    dark: #555555,
+    light:  whitesmoke,
+); 
+
+/*2- creo la funcion que itera en las variables*/
+/***************clases para color de texto**************/
+
+@each $atributo, $valor in $color {
+    .#{$atributo}-text {
+        color: $valor;
+    }
+}
+
+
+

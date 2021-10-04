@@ -1,0 +1,11 @@
+/*reset stilos*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $tipografia;
+}
+
+a {text-decoration: none; }
+
+ul, ol {list-style: none; }
